@@ -13,9 +13,22 @@ Get the value from the user for the number of rotation
 Using the slicing concept rotate the list
 
 ### Step 5: 
-### Step 6: 
-## Program:
 
+### Step 6:
+
+## Program:
+```
+#Program to circulate N values.
+#Developed by: ROSHINI.S 
+#RegisterNumber:23008859
+def circulate():
+    list=eval(input())
+    n=int(input())
+    result=list[n:]+list[:n]
+    print("After circulating the values are:",result)
+
+```
 ## Output:
+![Alt text](<CR Distance.png>)
 
 ## Result:
